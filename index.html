@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutoriales Silpos Web</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Helvetica, sans-serif;
+      background: #f8f9fa;
+    }
+    .tutorial-btn {
+      text-align: left;
+      font-size: 16px;
+      margin-bottom: 8px;
+      transition: transform 0.1s;
+      color: #ffffff;
+    }
+    .tutorial-btn:hover {
+      transform: scale(1.02);
+    }
+    .search-box {
+      max-width: 470px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+<div class="container py-4">
+  <!-- Header -->
+  <div class="text-center mb-4">
+    <img src="img/logo.png" alt="Logo" height="150">
+    <h2 class="text-info fw-bold mt-3">Tutorial Sistema de Facturación Silpos Web</h2>
+    <hr>
+  </div>
+
+  <!-- Buscador -->
+  <div class="search-box">
+    <input type="text" id="searchInput" class="form-control" placeholder="🔍 Buscar tutorial...">
+  </div>
+
+  <!-- Lista de Tutoriales -->
+  <div class="row">
+    <div class="col-12 col-md-4" id="tutorialList">
+      <!-- Botones de ejemplo -->
+       <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/YTB2zyPRMkU">1. Crear Un Articulo</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/vZs8hLtzKsI">2. Crear Un Cliente</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/ZZwa2o3X6Nw">3. Crear Un Usuario o Empleado</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/e7B1xDUGwNQ">4. Crear Un Proveedor</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/pIQHh8eDxqM">5. Crear Una Venta</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/fogdKtWTrsA">6. Crear Una Venta Credito</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/hB24CAYG1sg">7. Editar Una Factura en Bar Restaurante</button>      
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/eI_qoxCd4yI">8. Hacer Un Abono En Ventas a Credito</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/Fr3K0_x9RC0">9. Hacer Un Abono a Proveedores</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/0d-jzchI-XQ">10. Ver El Reporte Diario</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/tcte4UjDyG4">11. Hacer Un Egreso</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/bc1Inz-OYO4">12. Subir Una Compra de Proveedores</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/5MmPjsZdtQc">13. Adicionar la Base Diaria</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/Vh1ADIj7Xq4">14. Limpiar Historial de Internet</button>  
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/jy6SSEfE-Go">15. Anular Factura de Venta</button>  
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/_XD6fQodfAE">16. Hacer Una Factura Electronica</button>  
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/7PL46IvfzjY">17. Silpos Uso General</button> 
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/9xRGnq9MIco">18. Silpos Bar Restaurantes</button>  
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/D4jhTbokHxw">19. Eliminar Un Abono en Cartera </button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/tv4PBH8mWKU">20. Adicionar Precios a Un articulo </button>      
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/tvCI1s6y2DA">21. Hacer una Devolucion a Proveedores </button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/961NxAevBUw">22. Hacer un Documento Soporte Electronico</button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/IQn9vJnRq1A">23. Hacer una Nota Documento Soporte </button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/JV3bq06PpjY">24. Reenviar Una Factura Electronica </button>  
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/3sNPIX-xpBU">25. Enviar Nomina Electronica </button>  
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/rM22gZgVF5g">26. Eliminar Una Nomina Electronica </button>   
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/yBwBm5h1lZ0">27. Enviar Eventos Manualmente </button>    
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/dW4s5WjFH8Q">28. Eventos Recepcion Facturas de Compra </button>     
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/X3NNQmYXBsY">29. Hacer Una Nota Credito Electronica</button>        
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/a1K9H8bH8qM">30. Asociar Resolucion Dian </button>
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/8z3jOPrEDLs">31. Video Identificacion Dian </button> 
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/01JPK0b8Pc8">32. Anular o Modificar Factura Compra </button>  
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/nKYkJdtmqa4">33. Silpos Optica Examen Visual </button>       
+      <button class="btn btn-info w-100 tutorial-btn" data-url="https://www.youtube.com/embed/HTVRgIUtkzo">34. Emitir Factura Electronica solo con cedula </button>
+   <!-- ... Agrega más botones aquí ... -->
+    </div>
+
+    <div class="col-12 col-md-8">
+      <div class="ratio ratio-16x9">
+        <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para móviles -->
+<div class="modal fade" id="videoModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9">
+          <iframe id="modalVideo" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Toast para mostrar link copiado -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+  <div id="copyToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+        📋 Link copiado al portapapeles:<br>
+        <small id="copiedLink" class="text-light"></small>
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const buttons = document.querySelectorAll('.tutorial-btn');
+  const iframe = document.getElementById('videoFrame');
+  const modalIframe = document.getElementById('modalVideo');
+  const copyToastElement = document.getElementById('copyToast');
+  const copyToast = new bootstrap.Toast(copyToastElement);
+  const copiedLinkEl = document.getElementById('copiedLink');
+
+  buttons.forEach(button => {
+    // Abrir video al hacer clic
+    button.addEventListener('click', () => {
+      const url = button.dataset.url;
+      if (window.innerWidth < 768) {
+        modalIframe.src = url;
+        new bootstrap.Modal(document.getElementById('videoModal')).show();
+      } else {
+        iframe.src = url;
+      }
+    });
+
+    let pressTimer;
+
+    // Función para copiar enlace (con conversión a youtu.be)
+    const startPress = () => {
+      pressTimer = setTimeout(() => {
+        let videoUrl = button.dataset.url;
+        // Convertir a formato corto
+        videoUrl = videoUrl.replace("https://www.youtube.com/embed/", "https://youtu.be/");
+
+        navigator.clipboard.writeText(videoUrl).then(() => {
+          copiedLinkEl.textContent = videoUrl;
+          copyToast.show();
+        });
+      }, 800);
+    };
+
+    const cancelPress = () => clearTimeout(pressTimer);
+
+    // Eventos para mouse
+    button.addEventListener('mousedown', startPress);
+    button.addEventListener('mouseup', cancelPress);
+    button.addEventListener('mouseleave', cancelPress);
+
+    // Eventos táctiles para móviles
+    button.addEventListener('touchstart', startPress);
+    button.addEventListener('touchend', cancelPress);
+    button.addEventListener('touchcancel', cancelPress);
+  });
+
+  // Limpiar modal al cerrarlo
+  document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
+    modalIframe.src = '';
+  });
+
+  // Buscador de tutoriales
+  document.getElementById('searchInput').addEventListener('input', e => {
+    const filter = e.target.value.toLowerCase();
+    buttons.forEach(btn => {
+      btn.style.display = btn.textContent.toLowerCase().includes(filter) ? '' : 'none';
+    });
+  });
+
+  // Evitar menú contextual al mantener pulsado
+  document.addEventListener('contextmenu', e => {
+    if (e.target.classList.contains('tutorial-btn')) e.preventDefault();
+  });
+</script>
+</body>
+</html>
